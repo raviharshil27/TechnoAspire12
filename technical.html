@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Technical Events</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta NAME="description" CONTENT="VGEC technical festival 2012">
+<meta NAME="keywords" CONTENT="technoaspire,robotics,registration,computrix,infotrix,powertrix,electrolux,ecommunix,civilian,chemtrix,techfest,technical festival">
+<meta NAME="robot" CONTENT="index,follow">
+<meta NAME="author" CONTENT="TechnoAspire">
+<meta NAME="generator" CONTENT="Technoaspire">
+<meta NAME="language" CONTENT="English">
+	
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+ <link href="css/jquery-ui-1.8.18.custom.css" rel="stylesheet" type="text/css" />
+	
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.18.custom.min.js"></script>
+
+	<!--[if IE 6]>
+	<script src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script>
+	  /* EXAMPLE */
+	  DD_belatedPNG.fix('.button');
+	  
+	  /* string argument can be any CSS selector */
+	  /* .png_bg example is unnecessary */
+	  /* change it to what suits you! */
+	</script>
+	<![endif]-->
+
+<script>
+	// increase the default animation speed to exaggerate the effect
+	$.fx.speeds._default =1000;
+	$('.opener').live('click', function (e) {
+		 e.preventDefault();
+		 $( "#dialog" ).dialog({
+			autoOpen: false,
+			show: "clip",
+			hide: "highlight",modal:true
+		});
+		$( "#dialog" ).dialog({ position: 'center' });
+		;
+		});
+		
+		
+	function pass_url(url,ename)
+	{
+		//var url='events/aqua.html';
+		$( "#dialog" ).dialog( "open" );
+		$( "#dialog" ).tabs({ selected: 0 });		
+		$( "#tabs" ).tabs({autoPlay: false,
+		});
+
+		$( "#dialog" ).dialog({ title: ename });
+		$( "#dialog" ).dialog({ width:950 });
+		$( "#dialog" ).dialog({ height: 500 });
+		$('#rule').html('');$('#desc').html('');$('#manager').html('');
+		var rule=url+' #rule';
+		$('#rule').load(rule);
+		var desc=url+' #desc';
+		$('#desc').load(desc);
+		var manager=url+' #manager';
+		$('#manager').load(manager);
+		return false;	
+		$('#dialog').dialog('destroy');
+	}	
+	</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29883441-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30210362-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body class="portfolio">
+
+	<div id="wrapper" class="container_12 clearfix">
+<div class="container_12 clearfix" style="background-image:url(images/back.jpg)">
+
+		<!-- Text Logo -->
+		<h1 class="grid_4" id="logo" name="logo"><a href="index.html"><img src="images/logo.png" /></a></h1>
+		
+		<!-- Navigation Menu -->
+		<ul id="navigation" class="">
+			<li><a href="contact.html"><br />Contact Us</a></li>
+			<li><a href="register.html"><br />
+			Registration</a></li>
+   			<li><a href="sponsors.html"><br />Sponsors</a></li>
+
+			<li><a href="events.html" class="current"><br />events</a></li>
+				
+			<li><a href="about.html"><br />About</a></li>
+			<li><a href="index.html"><br />Home</a></li>
+		</ul>
+		</div>
+		<div class="hr grid_12 clearfix">&nbsp;</div>
+			
+		<!-- Catch Line and Link -->
+			<h2 class="grid_12 caption clearfix"><marquee>It is not the  <span>events</span> of our lives that shapes us but our beliefs as to what those events mean.</marquee> </h2>
+		
+		<div class="pr grid_12 clearfix">&nbsp;</div>
+		
+		<!-- events Items -->
+		
+		<!-- Section 1 -->
+		  <div class="catagory_1 clearfix">
+			<!-- Row 0 -->
+			<div class="grid_3 textright" >
+			  <h4 class="title ">WorkShop</h4>
+				<div class="hr clearfix dotted">&nbsp;</div>
+				<p>            </p>
+			</div>
+			<div class="grid_9">
+				<a class="portfolio_item float alpha" name="workshop" href="events/Reverse_Code_Engineering.pdf" target="_blank">
+					<span>Reverse Code Engineering</span>
+					<img class="" src="images/events/reverseeng.png".png"  alt=""/>
+				</a>
+			<div class="clear"></div>
+			</div>
+		</div>
+			
+	  <div class="hr grid_12 clearfix">&nbsp;</div>
+		<!-- Section 3 -->
+		
+		
+		<div class="catagory_1 clearfix">
+			<!-- Row 1 -->
+			<div class="grid_3 textright" >
+			  <h4 class="title ">CompuTrix</h4>
+				<div class="hr clearfix dotted">&nbsp;</div>
+				<p>Are you a C-Sprinter ? Try some hard Coding,  cipher the text to impede the hacker, shape the Web with your i-factor and creativity, and test your surfing alias searching aka Googling skills for a Bingo !</p>
+			</div>
+			<div class="grid_9">
+				<a class="portfolio_item float alpha opener" name="computrix"  href="#"  onclick="pass_url('events/CE/bingo.html','Bingo');">
+					<span>Bingo</span>
+					<img class="" src="images/events/computrix/bingo.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float opener"href=""  onclick="pass_url('events/CE/c_sprint.html','C_Sprint');">
+					<span>C_Sprint</span>
+					<img class="" src="images/events/computrix/csprint.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float omega opener" href=""  onclick="pass_url('events/CE/cryptomania.html','CryptoMania');">
+					<span>CryptoMania</span>
+					<img class="" src="images/events/computrix/cryptomania.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float alpha opener"href=""  onclick="pass_url('events/CE/webfunda.html','WebFunda');">
+					<span>WebFunda</span>
+					<img class="" src="images/events/computrix/webfunda.png"  alt=""/>
+				</a>
+			<div class="clear"></div>
+			</div>
+		</div>
+	  <div class="hr clearfix grid_12">&nbsp;</div>
+		<div class="catagory_1 clearfix">
+			<!-- Row 2 -->
+			<div class="grid_3 textright" >
+			  <h4 class="title ">InfoTrix</h4>
+				<div class="hr clearfix dotted">&nbsp;</div>
+				<p>Long ago the creator  renamed it Java, from a coffee bean. Want to have a sip, be here in TechnoAspire.
+Are you a database Guru? Checkout your Query skills. You have a topic and a Google. It all depends how well you can present !
+</p>
+			</div>
+			<div class="grid_9">
+				<a class="portfolio_item float alpha opener" name="infotrix"  href=""  onclick="pass_url('events/IT/cryptodata.html','Query 203!');">
+					<span>Query 203!</span>
+					<img class="" src="images/events/infotrix/query203.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float opener"href=""  onclick="pass_url('events/IT/java.html','JAVA');">
+					<span>JAVA</span>
+					<img class="" src="images/events/infotrix/java.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float omega opener" href=""  onclick="pass_url('events/IT/presentogoogle.html','Prestnt-O-Google');">
+					<span>Prestnt-O-Google</span>
+					<img class="" src="images/events/infotrix/preogoogle.png"  alt=""/>
+				</a>
+			<div class="clear"></div>
+			</div>
+		</div>
+	  <div class="hr clearfix grid_12">&nbsp;</div>
+      
+      <div class="catagory_1 clearfix">
+			<!-- Row 3 -->
+			<div class="grid_3 textright" >
+			  <h4 class="title ">ECommunix</h4>
+				<div class="hr clearfix dotted">&nbsp;</div>
+				<p>From continuity in current to remote manipulations, ranging from infinitesimally small electrons to gigantic satellites is what comes under the ambit of Electronics and Communication. So, apply your heuristics in routing & deciphering circuits, realize your innovative projects on multisim and hammer your puzzles to triumph the hunt.</p>
+			</div>
+			<div class="grid_9">
+				<a class="portfolio_item float alpha opener" name="Ecommunix"  href="#"  onclick="pass_url('events/EC/circuit.html','Circuito de Soluci');">
+					<span>Circuito de Soluci</span>
+					<img class="" src="images/events/ECommunix/circuitdesoluci.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float opener"href=""  onclick="pass_url('events/EC/Symbiosis.html','Symbiosis');">
+					<span>Symbiosis</span>
+					<img class="" src="images/events/ECommunix/symbiosis.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float omega opener" href=""  onclick="pass_url('events/EC/techth.html','Technical Treasure Hunt');">
+					<span>Technical Treasure Hunt</span>
+					<img class="" src="images/events/ECommunix/techtrehunt.png"  alt=""/>
+				</a>
+			<div class="clear"></div>
+			</div>
+		</div>
+	  <div class="hr clearfix grid_12">&nbsp;</div>
+      
+       <div class="catagory_1 clearfix">
+			<!-- Row 4 -->
+			<div class="grid_3 textright" >
+			  <h4 class="title ">Mechanix</h4>
+				<div class="hr clearfix dotted">&nbsp;</div>
+				<p>Mechanical Branch-TechnoAspire</p>
+			</div>
+			<div class="grid_9">
+				<a class="portfolio_item float alpha opener" name="mechanix"  href="#"  onclick="pass_url('events/Mechanical/waterbird.html','Water Bird');">
+					<span>Water Bird</span>
+					<img class="" src="images/events/Mechanix/waterbird.png"  alt=""/>
+				</a>
+			<div class="clear"></div>
+			</div>
+		</div>
+	  <div class="hr clearfix grid_12">&nbsp;</div>
+      
+       <div class="catagory_1 clearfix">
+			<!-- Row 5 -->
+			<div class="grid_3 textright" >
+			  <h4 class="title ">Electrolux</h4>
+				<div class="hr clearfix dotted">&nbsp;</div>
+				<p>Electrical Branch-TechnoAspire</p>
+			</div>
+			<div class="grid_9">
+				<a class="portfolio_item float alpha opener" name="electrolux"  href="#"  onclick="pass_url('events/electrical/junkyardwars.html','Junkyard Wars');">
+					<span>Junkyard Wars</span>
+					<img class="" src="images/events/Electrolux/junkyardwars.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float opener"href=""  onclick="pass_url('events/electrical/8085.html','8085 Coding');">
+					<span>8085 Coding</span>
+					<img class="" src="images/events/Electrolux/8085coding.png"  alt=""/>
+				</a>
+			<div class="clear"></div>
+			</div>
+		</div>
+	  <div class="hr clearfix grid_12">&nbsp;</div>
+      
+       <div class="catagory_1 clearfix">
+			<!-- Row 6 -->
+			<div class="grid_3 textright" >
+			  <h4 class="title ">Powertrix</h4>
+				<div class="hr clearfix dotted">&nbsp;</div>
+				<p>Power Electronics-TechnoAspire</p>
+			</div>
+			<div class="grid_9">
+				<a class="portfolio_item float alpha opener" name="powertrix"  href="#"  onclick="pass_url('events/Power/digilution.html','Digilution');">
+					<span>Digilution</span>
+					<img class="" src="images/events/digilution/digilution.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float opener"href=""  onclick="pass_url('events/Power/circuitronicx.html','Ciruitronics');">
+					<span>Ciruitronics</span>
+					<img class="" src="images/events/digilution/circuitronics.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float omega opener" href=""  onclick="pass_url('events/Power/virtualcs.html','Vitual CS');">
+					<span>Vitual CS</span>
+					<img class="" src="images/events/digilution/virtualcs.png"  alt=""/>
+				</a>
+			<div class="clear"></div>
+			</div>
+		</div>
+	  <div class="hr clearfix grid_12">&nbsp;</div>
+		<div class="catagory_1 clearfix">
+			<!-- Row 7 -->
+			<div class="grid_3 textright" >
+			  <h4 class="title ">Civilian</h4>
+				<div class="hr clearfix dotted">&nbsp;</div>
+				<p>Engineers like to solve problems. Are you from those with ignited minds? Then take the challenge to design energy conserving house, step out to show drawing skill with auto- cad ,Plan a town & Be a part of urban civilization, Bring out innovation by designing economical & elegant tower crane.</p>
+			</div>
+			<div class="grid_9">
+				<a class="portfolio_item float alpha opener" name="civilian" href="" onclick="pass_url('events/Civil/blueprints.html','BluePrints');">
+					<span>BluePrints</span>
+					<img class="" src="images/events/civilian/blueprint.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float opener" href=""  onclick="pass_url('events/Civil/cadmania.html','Cadmania');">
+					<span>Cadmania</span>
+					<img class="" src="images/events/civilian/cad-mania.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float omega opener" href=""  onclick="pass_url('events/Civil/ccityarc.html','C-City-Arc');">
+					<span>C-City-Arc</span>
+					<img class="" src="images/events/civilian/c_city_arc.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float alpha opener" href=""  onclick="pass_url('events/Civil/ecodelination.html','Eco-Delineation');">
+					<span>Eco-Delineation</span>
+					<img class="" src="images/events/civilian/ecodel.png"  alt=""/>
+				</a>
+                <a class="portfolio_item float alpha opener" href="" onclick="pass_url('events/Civil/concreate.html','ConCreate');">
+					<span>ConCreate</span>
+					<img class="" src="images/events/civilian/concreate.png"  alt=""/>
+				</a>
+			<div class="clear"></div>
+			</div>
+		</div>
+			
+	  <div class="hr grid_12 clearfix">&nbsp;</div>
+      
+      <div class="catagory_1 clearfix">
+			<!-- Row 8 -->
+			<div class="grid_3 textright" >
+			  <h4 class="title ">LAN Gaming</h4>
+				<div class="hr clearfix dotted">&nbsp;</div>
+				<p>You will surely Need the Speed.The hunt for Most Wanted begins. Counter act, shoot your opponent down and make him regret; show your team spirit in the world’s most popular LAN game</p>
+			</div>
+			<div class="grid_9">
+				<a class="portfolio_item float alpha opener" name="langaming" href="" onclick="pass_url('events/CE/nfs.html','NFS');">
+					<span>NFS</span>
+					<img class="" src="images/events/lan/nfs.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float opener" href=""  onclick="pass_url('events/CE/counterstrike.html','Counter-Strike');">
+					<span>Counter-Strike</span>
+					<img class="" src="images/events/lan/cs.png"  alt=""/>
+				</a>
+			<div class="clear"></div>
+			</div>
+		</div>
+			
+	  <div class="hr grid_12 clearfix">&nbsp;</div>
+      
+		<div class="catagory_1 clearfix">
+			<!-- Row 9 -->
+			<div class="grid_3 textright" >
+			  <h4 class="title ">Chemitrix</h4>
+				<div class="hr clearfix dotted">&nbsp;</div>
+				<p>Chemical-TechnoAspire.</p>
+		  </div>
+			<div class="grid_9">
+				<a class="portfolio_item float alpha opener" name="chemitrix" href=""  onclick="pass_url('events/chemical/paperpresentation.html','Paper Presentation');">
+					<span>Paper Presentation</span>
+					<img class="" src="images/events/Chemtrix/paperpre.png"  />
+				</a>
+				<a class="portfolio_item float opener"  href=""  onclick="pass_url('events/chemical/mockdrill.html','Mock Drill');">
+					<span>Mock Drill</span>
+					<img class="" src="images/events/Chemtrix/mockdrill.png"  alt=""/>
+				</a>
+				<a class="portfolio_item float omega opener"  href=""  onclick="pass_url('events/chemical/posterpresentaion.html','Chem-Poster');">
+					<span>Chem-Poster</span>
+					<img class="" src="images/events/Chemtrix/chemposter.png"  alt=""/>
+				</a>
+			<div class="clear"></div>
+			</div>
+	  </div>
+			
+		<div class="hr grid_12 clearfix">&nbsp;</div>
+		<div class="grid_12 caption clearfix"><h6><a href="designed.html" target="_blank">Designed by InGineers</a></h6></div>	
+		<!-- Footer -->
+		<p class="grid_12 footer clearfix"><a class="float right" href="#">top</a>
+		</p>
+		
+<!-- -->
+	</div><!--end wrapper-->
+
+<div class="demo">
+
+<div id="dialog" title="EVENT">
+<div id="tabs">
+	<ul>
+		<li><a href="#desc">Description</a></li>
+		<li><a href="#rule">Rules</a></li>
+		<li><a href="#manager">Event Manager</a></li>
+	</ul>
+	<div id="desc">
+		
+	</div>
+	<div id="rule">
+	
+	</div>
+	<div id="manager">
+		
+	</div>
+   
+</div>
+</div></div>
+</body>
+</html>
